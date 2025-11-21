@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Payoo mobile app</title>
+    <title> log in page </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body>
-    <h1 class="border-2 border-red-500 bg-blue-800 text-white" >this is my payoo mobile app website</h1>
-    
+<body class="bg-slate-200 h-[100vh] flex items-center justify-center ">
+        <form class="  w-[393px] h-[440px]    mx-auto  " >
+            <div class=" bg-[url(./assets/bg.png)] h-[130px] w-[320px] mx-auto ">
+                <img class="mx-auto " src="assets/Group.png" alt="">
+            </div>
+
+            <div class="bg-white p-[10px] h-[300px]  rounded-lg rounded-lg   " > 
+                <p class="font-bold">Mobile Number</p>
+
+                <input  id="mobile"  class="mt-[15px] w-full p-[10px] rounded-[20px] bg-slate-100 " type="text" name="" placeholder="Enter your number"  >
+
+                <p class="mt-[15px] font-bold ">4 Digit Pin</p>
+
+                <input id="code"  class="mt-[15px] w-full p-[10px] rounded-[20px] bg-slate-200 " type="text" name="" placeholder="Enter 4 Digit Pin">
+                <br>
+
+                <!-- ! form er vitor button diye type="button" na dile ota default vabe submitte button dhore nei .  -->
+
+                <button  id="login-button" class="btn btn-active rounded-[20px] p-[10px] w-full h-[50px]  mt-[25px]   font-bold text-[20px]   btn-primary">Login</button>
+            </div>
+        </form>
+
+
+        <script src="script.js"></script>
 </body>
 </html>
