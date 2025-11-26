@@ -1,7 +1,7 @@
 // login button functionalities : 
 
 document.getElementById("login-button").addEventListener("click",function(event){
-    event.preventDefault();     // ! akhon button type submitte  thaklew load hobena . 
+    event.preventDefault();     // ! akhon button type submitte  thaklew reload hobena . 
     console.log("Login button clicked");
 
     const mobilenumber = 12345678910;

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+
+    <!-- tailwind css cdn  -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <!-- daisy ui cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <!-- fontawesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body class=" bg-slate-100  ">
+
+    <div class=" w-[450px] h-full mx-auto ">
+        <section class="w-[450px] h-[84px] bg-white  mx-auto   " >
+            <div class=" h-full w-full flex justify-between items-center  ">
+                <div class =" flex p-[10px] justify-between items-center my-[8px] ml-[10px] h-[70px] ">
+                    <img src="assets/Group.png" alt="">
+                    <div>
+                        <h3 class="font-bold text-[25px] " >$<span>45000</span></h3>
+                        <p class="text-gray-500">Available Balance</p>
+                    </div>
+                </div>
+                <div class="border-2 border-gray-400 text-gray-500 flex rounded-[10px] mr-[20px] ">
+                    <!-- <img src="assets/logout.png" alt="" class="h-[40px]" > -->
+                    <button class="w-[102px] h-[38px]   "> <i class="fa-solid fa-right-from-bracket rotate-180  "></i> Logout</button>               
+                    
+                </div>
+            </div>
+        </section>
+
+        <div class="border-1 bg-white border-gray-400 mt-[4px] mb-[4px] "></div>
+
+        <section class="pl-[23px] bg-white rounded-b-[20px] " >
+            <div class="w-[402px] h-[96px] pt-[30px]  ">
+                <h2 class="font-bold text-[20px] "  >🔥 Welcome to Payooo!</h2>
+                <p class="text-gray-500">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+            </div>
+            <div class="  w-[402px] h-[205px] pl-[8px] grid grid-cols-3 mt-[25px] ">
+
+                <div class="p-[10px]   w-[123px] h-[90px] rounded-[10px]  border-1 border-gray-400">
+                    <img class="mx-auto mt-[8px]" src="assets/wallet1.png" alt="">
+                    <p class="ml-[7px] mt-[8px]">Add Money</p>
+                </div>
+
+                <div class="p-[10px]   w-[123px] h-[90px] rounded-[10px]  border-1 border-gray-400">
+                    <img class="mx-auto mt-[8px]" src="assets/send1.png" alt="">
+                    <p class="ml-[17px] mt-[8px]">Cashout</p>
+                </div>  
+
+                <div class="  w-[123px] h-[90px] rounded-[10px]  border-1 border-gray-400">
+                    <img class="mx-auto mt-[20px]" src="assets/money1.png" alt="">
+                    <p class=" mt-[10px] ml-[5px]">Transfer Money</p>
+                </div>
+
+                <div class="p-[10px]   w-[123px] h-[90px] rounded-[10px]  border-1 border-gray-400">
+                    <img class="mx-auto mt-[8px]" src="assets/bonus1.png" alt="">
+                    <p class="ml-[9px] mt-[8px]">Get Bonus</p>
+                </div>
+
+                <div class="p-[10px]   w-[123px] h-[90px] rounded-[10px]  border-1 border-gray-400">
+                    <img class="mx-auto mt-[8px]" src="assets/purse1.png" alt="">
+                    <p class="ml-[25px] mt-[8px]">Pay Bill</p>
+                </div>
+
+                <div class=" p-[10px]  w-[123px] h-[90px] rounded-[10px]  border-1 border-gray-400">
+                    <img class="mx-auto mt-[5px] " src="assets/transaction1.png" alt="">
+                    <p class="ml-[8px] mt-[5px] ">Transactions</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-100 pb-[80px] mt-[40px] ">
+            <div class="flex justify-between items-center p-[10px] ">
+                <h3 class="font-bold text-[25px] mt-[10px] mb-[10px] ">Transaction History</h3>
+                <p>View All</p>
+            </div>
+
+            <div >
+
+                <div class=" flex justify-between items-center  bg-white rounded-[15px] mt-[20px] p-[10px]  ">
+                    <div class="flex w-[px]">
+                        <div class="rounded-full w-[60px] h-[60px] flex flex-col  items-center bg-slate-200 ">
+                            <img class="w-[40px] mt-[10px] " src="assets/wallet1.png" alt="">
+                        </div>
+                        <div class="ml-[10px]">
+                            <h3 class="font-bold text-[17px]">Electricity Bill</h3>
+                            <p>Today 01:44 AM</p>
+                        </div>
+                    </div>
+
+                    <p class="font-bold text-[25px]" >⋮</p>
+                </div>
+
+                <div class=" flex justify-between items-center bg-white rounded-[15px] mt-[20px] p-[10px]  ">
+                    <div class="flex w-[px]">
+                        <div class="rounded-full w-[60px] h-[60px] flex flex-col  items-center bg-slate-200 ">
+                            <img class="w-[40px] mt-[10px] " src="assets/wallet1.png" alt="">
+                        </div>
+                        <div class="ml-[10px]">
+                            <h3 class="font-bold text-[17px]">Bank Deposit</h3>
+                            <p>Today 01:44 AM</p>
+                        </div>
+                    </div>
+
+                    <p class="font-bold text-[25px]">⋮</p>
+                </div>
+
+                <div class=" flex justify-between items-center  bg-white rounded-[15px] mt-[20px] p-[10px]  ">
+                    <div class="flex w-[px]">
+                        <div class="rounded-full w-[60px] h-[60px] flex flex-col  items-center bg-slate-200 ">
+                            <img class="w-[40px] mt-[10px] " src="assets/wallet1.png" alt="">
+                        </div>
+                        <div class="ml-[10px]">
+                            <h3 class="font-bold text-[17px]">Mobile Recharge</h3>
+                            <p>Today 01:44 AM</p>
+                        </div>
+                    </div>
+
+                    <p class="font-bold text-[25px]">⋮</p>
+                </div>
+
+                <div class=" flex justify-between items-center bg-white rounded-[15px] mt-[20px] p-[10px]  ">
+                    <div class="flex w-[px]">
+                        <div class="rounded-full w-[60px] h-[60px] flex flex-col  items-center bg-slate-200 ">
+                            <img class="w-[40px] mt-[10px] " src="assets/wallet1.png" alt="">
+                        </div>
+                        <div class="ml-[10px]">
+                            <h3 class="font-bold text-[17px]">Gas Bill</h3>
+                            <p>Today 01:44 AM</p>
+                        </div>
+                    </div>
+
+                    <p class="font-bold text-[25px]">⋮</p>
+                </div>
+
+
+            </div>
+        </section>
+
+    </div>
+
+    
+</body>
+</html>

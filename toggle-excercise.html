@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggle exercise</title>
+</head>
+<body>
+    <button id="button-1">button 1</button>
+    <button id="button-2">button 2</button>
+
+    <h2 id="heading-1">this is the button 1 script </h2>
+    <h2 id="heading-2">this is the button 2 script </h2>
+
+    <script>
+        document.getElementById("button-1").addEventListener("click",function(){
+            document.getElementById("heading-2").style.display = "none";
+
+            document.getElementById("heading-1").style.display = "block";
+        })
+
+        document.getElementById("button-2").addEventListener("click",function(){
+            document.getElementById("heading-1").style.display = "none";
+
+            document.getElementById("heading-2").style.display = "block";
+
+        })
+
+    </script>
+
+</body>
+</html>
