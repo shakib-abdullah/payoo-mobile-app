@@ -17,7 +17,7 @@ document.getElementById("login-button").addEventListener("click",function(event)
     console.log (integercode );
 
     if(integermobilenumber === mobilenumber && integercode===code){
-        window.location.href = "./home.html" 
+        window.location.href = "./landing-page.html" 
     }
     else{
         alert("wrong number or pin ");

@@ -1,4 +1,4 @@
-// console.log("js file connected ");
+ console.log(" add-money js file connected ");
 const valid_pin = 1234;
 
 document.getElementById("add-money").addEventListener("click",function(){
